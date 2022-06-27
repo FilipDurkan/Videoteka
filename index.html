@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Videoteka</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>Videoteka</h1>
+
+    <div class="container">
+      <div class="movies">
+        <h2>Filmovi:</h2>
+
+        <div class="single-movie">
+          <img src="img/batman.jpg" alt="slika-filma-1">
+          <div class="si-content">
+            <h3>Batman begins</h3>
+            <p class="price">Cijena: $<span>20</span></p>
+            <p class="movie-description">After training with his mentor,
+              Batman begins his fight to free crime-ridden Gotham City from corruption.</p>
+              <br>
+            <p class="rating">⭐ 8,2/10 </p>
+          </div>
+          <div class="actions">
+            <button onClick="addToCart(this)">Pogledaj</button>
+          </div>
+        </div>
+
+        <div class="single-movie">
+          <img src="img/inception.png" alt="slika-filma-2">
+          <div class="si-content">
+            <h3>Inception</h3>
+            <p class="price">Cijena: $<span>15</span></p>
+            <p class="movie-description">A thief who steals corporate secrets
+              through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.,
+              but his tragic past may doom the project and his team to disaster</p>
+              <br>
+            <p class="rating">⭐ 8,8/10 </p>
+          </div>
+          <div class="actions">
+            <button onClick="addToCart(this)">Pogledaj</button>
+          </div>
+        </div>
+
+        <div class="single-movie">
+          <img src="img/shawshank.jpg" alt="slika-filma-3">
+          <div class="si-content">
+            <h3>The Shawshank redemption</h3>
+            <p class="price">Cijena: $<span>15</span></p>
+            <p class="movie-description">Two imprisoned men bond over a number of years,
+              finding solace and eventual redemption through acts of common decency</p>
+              <br>
+            <p class="rating">⭐ 9,3/10 </p>
+          </div>
+          <div class="actions">
+            <button onClick="addToCart(this)">Pogledaj</button>
+          </div>
+        </div>
+
+      </div>
+
+
+  </div>
+
+  <div class="cart">
+    <h3>Košarica</h3>
+
+    <div class="cart-items"></div>
+
+    <div class="total"></div>
+
+
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
